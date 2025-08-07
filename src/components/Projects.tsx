@@ -18,8 +18,8 @@ const Projects = () => {
       tech: ["React.js", "EmailJS", "CSS3", "JavaScript"],
       impact: "200+ users",
       icon: Mail,
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://harshsfd.github.io/Siet-Resume-Generator/",
+      githubUrl: "https://github.com/Harshsfd/Siet-Resume-Generator"
     },
     {
       title: "CPU Scheduling Visualizer",
@@ -34,8 +34,8 @@ const Projects = () => {
       tech: ["JavaScript", "HTML5", "CSS3", "Chart.js"],
       impact: "300+ students",
       icon: Zap,
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://harshsfd.github.io/CPU-Scheduling-Visualizer/",
+      githubUrl: "https://github.com/Harshsfd/CPU-Scheduling-Visualizer"
     },
     {
       title: "EduWeb Platform",
@@ -50,8 +50,8 @@ const Projects = () => {
       tech: ["Django", "Python", "OpenAI API", "MySQL"],
       impact: "50%+ engagement rate",
       icon: Users,
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://harshsfd.github.io/Eweb/",
+      githubUrl: "https://github.com/Harshsfd/Eweb"
     }
   ];
 
