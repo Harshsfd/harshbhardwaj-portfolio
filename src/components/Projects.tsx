@@ -5,6 +5,32 @@ import { ExternalLink, Github, Users, Zap, Mail } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+  {
+    title: "Multi-Bot – Multi-Provider AI Chat",
+    description:
+      "A unified AI chat app that lets you switch between OpenAI, Groq, Mistral, Anthropic, Gemini, and xAI with secure server-side API key handling.",
+    features: [
+      "Provider-agnostic interface (switch instantly)",
+      "Custom system prompt support",
+      "Temperature & max-token controls",
+      "Markdown-rendered responses (code-friendly)",
+      "Server-side .env key management (never exposed)",
+      "Ready-to-deploy Vercel setup"
+    ],
+    tech: [
+      "Node.js",
+      "Express.js",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Marked.js",
+      "Font Awesome"
+    ],
+    impact: "Live demo & open-source",
+    icon: Bot,
+    liveUrl: "https://multi-bot-fawn.vercel.app/",
+    githubUrl: "https://github.com/Harshsfd/Multi-Bot"
+  };
     {
       title: "SIET Resume Generator",
       description: "A comprehensive resume builder web application that generates ATS-optimized resumes with pre-designed templates.",
