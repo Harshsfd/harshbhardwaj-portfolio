@@ -79,8 +79,8 @@ const Projects = () => {
       tech: ["Django", "Python", "OpenAI API", "MySQL"],
       impact: "50%+ engagement rate",
       icon: Users,
-      liveUrl: "https://harshsfd.github.io/Eweb/",
-      githubUrl: "https://eweb-theta.vercel.app/"
+      liveUrl: "https://eweb-theta.vercel.app/",
+      githubUrl: "https://github.com/Harshsfd/Eweb"
     }
   ];
 
