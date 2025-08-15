@@ -30,7 +30,7 @@ const Projects = () => {
     icon: Bot,
     liveUrl: "https://multi-bot-fawn.vercel.app/",
     githubUrl: "https://github.com/Harshsfd/Multi-Bot"
-  };
+  },
     {
       title: "SIET Resume Generator",
       description: "A comprehensive resume builder web application that generates ATS-optimized resumes with pre-designed templates.",
