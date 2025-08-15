@@ -80,7 +80,7 @@ const Projects = () => {
       impact: "50%+ engagement rate",
       icon: Users,
       liveUrl: "https://harshsfd.github.io/Eweb/",
-      githubUrl: "https://github.com/Harshsfd/Eweb"
+      githubUrl: "https://eweb-theta.vercel.app/"
     }
   ];
 
