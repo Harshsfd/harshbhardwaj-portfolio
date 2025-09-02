@@ -85,7 +85,6 @@ npm run dev
 **Harsh Bhardwaj**
 
 * 📧 [harshbhardwajsfd@gmail.com](mailto:harshbhardwajsfd@gmail.com)
-* 📞 +91 8566992106
 * 🐙 [GitHub](https://github.com/Harshsfd)
 * 💼 [LinkedIn](https://linkedin.com/in/harshbhardwaj)
 
