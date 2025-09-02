@@ -14,11 +14,6 @@ This website showcases my **skills, projects, and contact details** in a modern,
 
 ---
 
-## 🖼️ Live Demo
-
-👉 [**View Portfolio**](https://harshbhardwaj-portfolio.vercel.app/)
-
----
 
 ## ✨ Features
 
