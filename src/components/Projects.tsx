@@ -34,7 +34,7 @@ const Projects = () => {
       ],
       impact: "Live Client Project",
       icon: BookOpen,
-      liveUrl: "achieversstudy.com",
+      liveUrl: "https://www.achieversstudy.com/",
       githubUrl: "https://github.com/Harshsfd/A-SAC", // if repo exists
     },
     {
