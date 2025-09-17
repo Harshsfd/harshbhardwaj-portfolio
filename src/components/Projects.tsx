@@ -77,8 +77,8 @@ const Projects = () => {
       tech: ["React.js", "Node.js", "Express.js", "Tailwind", "shadcn UI"],
       impact: "Developer-focused showcase",
       icon: Database,
-      liveUrl: "https://mcp-showcase.vercel.app/",
-      githubUrl: "https://github.com/Harshsfd/MCP-PROJECT-SHOWCASE",
+      liveUrl: "https://protocol-forge-lab.vercel.app/",
+      githubUrl: "https://github.com/Harshsfd/protocol-forge-lab",
     },
     {
       title: "LangChain PDF Chatbot",
