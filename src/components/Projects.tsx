@@ -1,10 +1,42 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, Users, Zap, Mail, Bot } from "lucide-react";
+import {
+  ExternalLink,
+  Github,
+  Users,
+  Zap,
+  Mail,
+  Bot,
+  BookOpen,
+  Database,
+} from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Achievers Study Abroad (A-SAC)",
+      description:
+        "A real-world consultancy website for Achievers Study Abroad, live in production with modern UI and SEO optimization.",
+      features: [
+        "Animated hero sections",
+        "Services showcase",
+        "Contact form with EmailJS",
+        "SEO optimized deployment",
+        "Mobile-friendly navigation",
+      ],
+      tech: [
+        "React.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "React Router",
+      ],
+      impact: "Live Client Project",
+      icon: BookOpen,
+      liveUrl: "https://achieversstudy.com",
+      githubUrl: "https://github.com/Harshsfd/A-SAC", // if repo exists
+    },
     {
       title: "Multi-Bot – Multi-Provider AI Chat",
       description:
@@ -15,7 +47,7 @@ const Projects = () => {
         "Temperature & max-token controls",
         "Markdown-rendered responses (code-friendly)",
         "Server-side .env key management (never exposed)",
-        "Ready-to-deploy Vercel setup"
+        "Ready-to-deploy Vercel setup",
       ],
       tech: [
         "Node.js",
@@ -24,12 +56,46 @@ const Projects = () => {
         "HTML5",
         "CSS3",
         "Marked.js",
-        "Font Awesome"
+        "Font Awesome",
       ],
       impact: "Live demo & open-source",
       icon: Bot,
       liveUrl: "https://multi-bot-fawn.vercel.app/",
-      githubUrl: "https://github.com/Harshsfd/Multi-Bot"
+      githubUrl: "https://github.com/Harshsfd/Multi-Bot",
+    },
+    {
+      title: "MCP Showcase Platform",
+      description:
+        "A full-stack platform to showcase Model Context Protocol (MCP) projects with filtering and clean UI.",
+      features: [
+        "Frontend with React, Vite, Tailwind, shadcn UI",
+        "Scalable backend APIs",
+        "Project filtering and search",
+        "Responsive design",
+        "Clean folder structure",
+      ],
+      tech: ["React.js", "Node.js", "Express.js", "Tailwind", "shadcn UI"],
+      impact: "Developer-focused showcase",
+      icon: Database,
+      liveUrl: "https://mcp-showcase.vercel.app/",
+      githubUrl: "https://github.com/Harshsfd/MCP-PROJECT-SHOWCASE",
+    },
+    {
+      title: "LangChain PDF Chatbot",
+      description:
+        "A Streamlit application to chat with PDFs using LangChain and OpenAI API.",
+      features: [
+        "Vector embeddings + RAG pipeline",
+        "Chat with any PDF",
+        "Error handling & debugging",
+        "Fast and interactive",
+        "Deployed with Streamlit",
+      ],
+      tech: ["Python", "LangChain", "OpenAI API", "Streamlit"],
+      impact: "AI-powered student tool",
+      icon: Bot,
+      liveUrl: "https://pdf-chatbot.streamlit.app/", // replace if deployed
+      githubUrl: "https://github.com/Harshsfd/LangChain-PDF-Chatbot",
     },
     {
       title: "SIET Resume Generator",
@@ -40,30 +106,13 @@ const Projects = () => {
         "Email functionality using EmailJS",
         "Form validation and live preview",
         "Real-time template switching",
-        "ATS optimization features"
+        "ATS optimization features",
       ],
       tech: ["React.js", "EmailJS", "CSS3", "JavaScript"],
       impact: "200+ users",
       icon: Mail,
       liveUrl: "https://harshsfd.github.io/Siet-Resume-Generator/",
-      githubUrl: "https://github.com/Harshsfd/Siet-Resume-Generator"
-    },
-    {
-      title: "CPU Scheduling Visualizer",
-      description:
-        "An interactive tool for visualizing various CPU scheduling algorithms with real-time simulation capabilities.",
-      features: [
-        "Real-time algorithm simulation",
-        "Gantt chart visualization",
-        "Average waiting time calculation",
-        "Turnaround time analysis",
-        "Intuitive student-friendly interface"
-      ],
-      tech: ["JavaScript", "HTML5", "CSS3", "Chart.js"],
-      impact: "300+ students",
-      icon: Zap,
-      liveUrl: "https://harshsfd.github.io/CPU-Scheduling-Visualizer/",
-      githubUrl: "https://github.com/Harshsfd/CPU-Scheduling-Visualizer"
+      githubUrl: "https://github.com/Harshsfd/Siet-Resume-Generator",
     },
     {
       title: "EduWeb Platform",
@@ -74,14 +123,31 @@ const Projects = () => {
         "Course listing and management",
         "AI chatbot for student assistance",
         "Personalized dashboard",
-        "Material recommendations system"
+        "Material recommendations system",
       ],
       tech: ["Django", "Python", "OpenAI API", "MySQL"],
       impact: "50%+ engagement rate",
       icon: Users,
       liveUrl: "https://eweb-theta.vercel.app/",
-      githubUrl: "https://github.com/Harshsfd/Eweb"
-    }
+      githubUrl: "https://github.com/Harshsfd/Eweb",
+    },
+    {
+      title: "CPU Scheduling Visualizer",
+      description:
+        "An interactive tool for visualizing various CPU scheduling algorithms with real-time simulation capabilities.",
+      features: [
+        "Real-time algorithm simulation",
+        "Gantt chart visualization",
+        "Average waiting time calculation",
+        "Turnaround time analysis",
+        "Intuitive student-friendly interface",
+      ],
+      tech: ["JavaScript", "HTML5", "CSS3", "Chart.js"],
+      impact: "300+ students",
+      icon: Zap,
+      liveUrl: "https://harshsfd.github.io/CPU-Scheduling-Visualizer/",
+      githubUrl: "https://github.com/Harshsfd/CPU-Scheduling-Visualizer",
+    },
   ];
 
   return (
